@@ -1,0 +1,164 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  HINWEIS: Fügen Sie das folgende <META>-Element zu Ihrer <HEAD>-Seite    -->
+<!--  hinzu.  Bearbeiten Sie ggf. den Zeichensatzparameter, um den            -->
+<!--  Zeichensatz Ihrer HTML-Seite anzugeben.                                 -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  HINWEIS: Fügen Sie das folgende <FORM>-Element zu Ihrer Seite hinzu.    -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST">
+
+<input type=hidden name="orgid" value="00D24000000f1bS">
+<input type=hidden name="retURL" value="http://www.siroop.ch">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  HINWEIS: Bei diesen Feldern handelt es sich um optionale Elemente für   -->
+<!--  die Fehlerbehebung. Kommentieren Sie diese Zeilen aus, wenn Sie einen   -->
+<!--  Test im Debug-Modus durchführen möchten.                                -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="kevin.lueber@siroop.ch">                                         -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="name">Kontaktname</label><input  id="name" maxlength="80" name="name" size="20" type="text" /><br>
+
+<label for="email">E-Mail</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+Unterkategorie:<select  id="00N24000001Iyqr" name="00N24000001Iyqr" title="Unterkategorie"><option value="">– Keine –</option><option value="503 - Service unavailable">503 - Service unavailable</option>
+<option value="Abmeldung vom Newsletter">Abmeldung vom Newsletter</option>
+<option value="Add leads to 404 Site">Add leads to 404 Site</option>
+<option value="Adressänderung (nach Bestellung)">Adressänderung (nach Bestellung)</option>
+<option value="Andere">Andere</option>
+<option value="Änderung der Stammdaten">Änderung der Stammdaten</option>
+<option value="Anfrage Bestellung per E-Mail / Tel">Anfrage Bestellung per E-Mail / Tel</option>
+<option value="Anpassung Produktdaten">Anpassung Produktdaten</option>
+<option value="Anruf verpasst">Anruf verpasst</option>
+<option value="Authorisierung von Rechnung fehlgeschlagen">Authorisierung von Rechnung fehlgeschlagen</option>
+<option value="Benachrichtigungen">Benachrichtigungen</option>
+<option value="Benachrichtigungsprobleme">Benachrichtigungsprobleme</option>
+<option value="Beschädigte Lieferung / Postschaden">Beschädigte Lieferung / Postschaden</option>
+<option value="Bestellung nicht abgeholt">Bestellung nicht abgeholt</option>
+<option value="Brandpages">Brandpages</option>
+<option value="Einzahlungsschein">Einzahlungsschein</option>
+<option value="Extensions">Extensions</option>
+<option value="Falschbuchung">Falschbuchung</option>
+<option value="Falschen Artikel geliefert">Falschen Artikel geliefert</option>
+<option value="Falscher Auszahlungsbetrag">Falscher Auszahlungsbetrag</option>
+<option value="Falsches Produktbild">Falsches Produktbild</option>
+<option value="Falsche Verfügbarkeit im Shop">Falsche Verfügbarkeit im Shop</option>
+<option value="Falschinserate">Falschinserate</option>
+<option value="Feedback">Feedback</option>
+<option value="Fehler beim Checkout">Fehler beim Checkout</option>
+<option value="Fehlerhafte Produktbezeichnung">Fehlerhafte Produktbezeichnung</option>
+<option value="Flaschenpost">Flaschenpost</option>
+<option value="Frage MwSt">Frage MwSt</option>
+<option value="Fragen zum Salesreport">Fragen zum Salesreport</option>
+<option value="Französische Produktdaten">Französische Produktdaten</option>
+<option value="Fraud">Fraud</option>
+<option value="Garantiefall anmelden">Garantiefall anmelden</option>
+<option value="Garantiefall Transportschaden">Garantiefall Transportschaden</option>
+<option value="Google Shopping">Google Shopping</option>
+<option value="Gutschein Geschenkerlebnis">Gutschein Geschenkerlebnis</option>
+<option value="Gutschriftsprobleme">Gutschriftsprobleme</option>
+<option value="Händler Interesse">Händler Interesse</option>
+<option value="Händler werden">Händler werden</option>
+<option value="Infos / Fragen">Infos / Fragen</option>
+<option value="Infos / Fragen Allgemeines">Infos / Fragen Allgemeines</option>
+<option value="Infos / Fragen Bestellungen">Infos / Fragen Bestellungen</option>
+<option value="Infos / Fragen Produkte">Infos / Fragen Produkte</option>
+<option value="Infos / Fragen    Rechnungen / Gutschriften">Infos / Fragen    Rechnungen / Gutschriften</option>
+<option value="Infos / Fragen Retouren">Infos / Fragen Retouren</option>
+<option value="Intern">Intern</option>
+<option value="Kategorisierung">Kategorisierung</option>
+<option value="Keine / Falsche Trackingnummer">Keine / Falsche Trackingnummer</option>
+<option value="Kommissionen">Kommissionen</option>
+<option value="Kreditkarten Probleme">Kreditkarten Probleme</option>
+<option value="Kundenkonto">Kundenkonto</option>
+<option value="Lieferung ins Ausland">Lieferung ins Ausland</option>
+<option value="Lieferung nicht erhalten / Verlust">Lieferung nicht erhalten / Verlust</option>
+<option value="Lieferung nicht zustellbar / abgeholt">Lieferung nicht zustellbar / abgeholt</option>
+<option value="Lieferverzögerung">Lieferverzögerung</option>
+<option value="Lieferverzögerung / Lieferung zu spät erhalten">Lieferverzögerung / Lieferung zu spät erhalten</option>
+<option value="Login nicht möglich">Login nicht möglich</option>
+<option value="Login Probleme Kundenkonto">Login Probleme Kundenkonto</option>
+<option value="Mahnung">Mahnung</option>
+<option value="Marketing/PR">Marketing/PR</option>
+<option value="Merchant Portal">Merchant Portal</option>
+<option value="Neue Bankverbindung">Neue Bankverbindung</option>
+<option value="Nicht Abgerechnete Produkte">Nicht Abgerechnete Produkte</option>
+<option value="Nicht alle Artikel erhalten">Nicht alle Artikel erhalten</option>
+<option value="Notfallszenario">Notfallszenario</option>
+<option value="Paket differenzen">Paket differenzen</option>
+<option value="Paket geöffnet">Paket geöffnet</option>
+<option value="Passwort vergessen">Passwort vergessen</option>
+<option value="Post Anlieferung / Abholung fehlgeschlagen">Post Anlieferung / Abholung fehlgeschlagen</option>
+<option value="Präsenz erhöhen">Präsenz erhöhen</option>
+<option value="Preisdifferenz">Preisdifferenz</option>
+<option value="Preise/Bestände">Preise/Bestände</option>
+<option value="Probleme mit Login">Probleme mit Login</option>
+<option value="Probleme mit PW zurücksetzen">Probleme mit PW zurücksetzen</option>
+<option value="Probleme mit Voucher">Probleme mit Voucher</option>
+<option value="Produkt- / Händlervorschlag">Produkt- / Händlervorschlag</option>
+<option value="Produkte bewerben">Produkte bewerben</option>
+<option value="Produktfeed">Produktfeed</option>
+<option value="Produktinfos">Produktinfos</option>
+<option value="Produkt nicht auf siroop">Produkt nicht auf siroop</option>
+<option value="Produkt nicht lieferbar">Produkt nicht lieferbar</option>
+<option value="Rechnung erneut senden">Rechnung erneut senden</option>
+<option value="Rechnungsprobleme">Rechnungsprobleme</option>
+<option value="Retoure anmelden (durch CS)">Retoure anmelden (durch CS)</option>
+<option value="Retouren">Retouren</option>
+<option value="Retourenprobleme durch Händler">Retourenprobleme durch Händler</option>
+<option value="Retoure ungültig">Retoure ungültig</option>
+<option value="Scannen nicht möglich">Scannen nicht möglich</option>
+<option value="Schlecht verpackt">Schlecht verpackt</option>
+<option value="siroop Gutscheine?">siroop Gutscheine?</option>
+<option value="Sonstige Bugs auf Website">Sonstige Bugs auf Website</option>
+<option value="Sonstiges">Sonstiges</option>
+<option value="Sontige App Probleme">Sontige App Probleme</option>
+<option value="Stand Garantiefall">Stand Garantiefall</option>
+<option value="Status Anbindung">Status Anbindung</option>
+<option value="Storno">Storno</option>
+<option value="Storno durch Händler (Artikel nicht lieferbar)">Storno durch Händler (Artikel nicht lieferbar)</option>
+<option value="Storno durch Kunde">Storno durch Kunde</option>
+<option value="Storno durch Kunden">Storno durch Kunden</option>
+<option value="Synchronisation / Verbindung fehlgeschlagen">Synchronisation / Verbindung fehlgeschlagen</option>
+<option value="Technisches Problem">Technisches Problem</option>
+<option value="Telefonnummer für Spedition">Telefonnummer für Spedition</option>
+<option value="Test / Spam">Test / Spam</option>
+<option value="TV Werbung">TV Werbung</option>
+<option value="Versandanpassungen">Versandanpassungen</option>
+<option value="Versandkosten">Versandkosten</option>
+<option value="Verzögerung Bestätigung BF">Verzögerung Bestätigung BF</option>
+<option value="Widerspruch Händler">Widerspruch Händler</option>
+<option value="Wilde Retouren">Wilde Retouren</option>
+<option value="Zahlung auf Rechnung nicht möglich">Zahlung auf Rechnung nicht möglich</option>
+<option value="Zuviel geliefert">Zuviel geliefert</option>
+</select><br>
+
+Hauptkategorie:<select  id="00N2400000IeEhP" name="00N2400000IeEhP" title="Hauptkategorie"><option value="">– Keine –</option><option value="Allgemeines">Allgemeines</option>
+<option value="Produkte">Produkte</option>
+<option value="Bestellungen">Bestellungen</option>
+<option value="Retouren">Retouren</option>
+<option value="Rechnungen / Gutschriften">Rechnungen / Gutschriften</option>
+<option value="Pickup">Pickup</option>
+<option value="Technische Probleme">Technische Probleme</option>
+<option value="Allgemeine Info">Allgemeine Info</option>
+<option value="Händler Portal">Händler Portal</option>
+<option value="Bestellungen/Retouren">Bestellungen/Retouren</option>
+<option value="Händler Abrechnung">Händler Abrechnung</option>
+<option value="Telefonnummer Spedition">Telefonnummer Spedition</option>
+<option value="Marketing">Marketing</option>
+</select><br>
+
+Merchant ID:<input  id="00N1p00000JCnAk" maxlength="7" name="00N1p00000JCnAk" size="20" type="text" /><br>
+
+<label for="description">Beschreibung</label><textarea name="description"></textarea><br>
+
+<input type="submit" name="submit">
+
+</form>
